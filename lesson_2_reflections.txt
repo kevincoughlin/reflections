@@ -2,3 +2,6 @@ What happens when I initalize a git reposetory?  why do you need to do it?
 I guess it mostly just creates the hidden .git directory.  it doesn't make a commit though.  So we've got to do that ourselves.  
 This directory is needed to track your changes in git.  
 
+how is the staging area different from the working directory and the repository?  what advantage does it have?
+So the working directory is not activly being tracked, but it allows you to add files to begin tracking them, but
+can remove them if you decide not to track them.  Not particularly sure why this is beneficial.
