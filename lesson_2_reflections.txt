@@ -1,0 +1,4 @@
+What happens when I initalize a git reposetory?  why do you need to do it?
+I guess it mostly just creates the hidden .git directory.  it doesn't make a commit though.  So we've got to do that ourselves.  
+This directory is needed to track your changes in git.  
+

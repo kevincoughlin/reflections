@@ -1,0 +1,28 @@
+This is a reflections type file from the first lesson learned on version control.  
+This asks how did using commands from the command prompt make it easier to check for bug in the code.
+The main thing this did was reduce the number of lines of code that I needed to look at.  
+Out of a thousand lines, only a dozen were changed from the previous version, 
+so the error must have been in one of those lines.
+
+Next question: 
+How could having easy access to the entire history of a file make you a more efficent programmer in the long term?
+Interesting.  I guess by watching how a program deveolps, you are able to see how you change directions,
+see how it gets built from the ground up, so later you can skip ahead to the later steps.  you can also always go back
+and see what problems you had and how they were resolved.  
+
+Next question:
+What do you think are the pros and cons of manually choosing when to create a commit, like in Git, vs autosave?
+The pros are just what is said in  the videos.  By choosing when to do it yourself, you limit the number of them,
+making it easier to go back and check, while also keeping each commit a logical change.  The cons are that you might
+commit too infrequenct that it makes it difficult to fine any errors made when comparing two versions.
+
+Why does git commit save all files in a directory as a single unit?
+Seriously, the video just said exactly this.  These reflections require no thinking.  
+Changes in one file might effect others, so it will be useful if you change only one file and your code breaks,
+then you can go back and see "oh I only changed this file when i should have changed all the files"
+
+How can having version control make me more confident when coding?
+If i am cavalier and change lots and break shit, I can always go back and try again.
+
+What do I want to try and use git for?
+Probably mostly work.  Using github repository for my code would probably be useful.
