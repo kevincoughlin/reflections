@@ -5,3 +5,17 @@ This directory is needed to track your changes in git.
 how is the staging area different from the working directory and the repository?  what advantage does it have?
 So the working directory is not activly being tracked, but it allows you to add files to begin tracking them, but
 can remove them if you decide not to track them.  Not particularly sure why this is beneficial.
+
+How can I use the staging area to ensure one locical element per commit?
+Instead of just using commit -a, if i changed several files for different reasons, I can have each file change be a separate commit.
+
+How are branches helpful?
+Well I just used one to create an easy mode for asteroids.  They also mention adding experimental features that may or may not work out in the end,
+so you would want to keep a clean directory for the original work.
+
+How do diagrams help visualize branch sturcutre?
+They let you see what running git log will show on each branch, and where the branches intersect/diverge.  This makes sense with branches before a merge, but what about a merge?  
+do branches and merges show up in git log?
+
+Pros and cons of automerge?
+can be a huge time saver.  But if two branches have similiar code in different parts of original code, it will get redundent.  Also lots of room for conflicts.
