@@ -2,3 +2,18 @@ When would you want to use a remote repository rather than keeping all work loca
 I imagine the number 1 reason for remote repository is collaboration.  Like how Dan said he and Dragan worked on papers.
 Another point is as a backup.  If all your files are only local then you run the risk of losing everything on catastrophic
 computer failure.  
+
+why is manually pulling from github, rather than doing it automatically, better?
+One thing is then you can work without internet.  Thats sometimes nice.  Also, this way you don't 'publish' the code you're working on before you're ready.
+
+Differences between forks, branches, and clones.  
+Clones are copying a repository to your local workspace, either from github or elsewhere on your local space.  Forks go github to github, generally from one person's to another (giving credit)
+branches act on the repository itself, creating a new distinct version within the current repository.
+
+what is the benefit of having a copy of the last known state of teh remote stored locally?
+It would be nice to see what commits haven't been pushed to github yet.  that would help in understanding mergers.  It could also be reverted back to that state whenever.
+you could check what the diff is before you push.
+
+how would you collaborate without using github or git?
+I would probably use dropbox and google docs like I do with kayla on the budget spreadsheet.  It works fine for that, but it doesn't remember every iteration of the docs.  So git could help there.
+Splitting into various branches would also be more difficult.
